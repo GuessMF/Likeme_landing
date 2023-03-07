@@ -632,6 +632,11 @@ main {
   margin: 0 auto;
   z-index: 10;
 }
+@media (max-width: 700px) {
+  .middle__button {
+    width: 100%;
+  }
+}
 .main__button {
   width: 1100px;
   height: 150px;
@@ -815,6 +820,11 @@ main {
   align-items: center;
   position: relative;
   margin: 0 auto;
+}
+@media (max-width: 700px) {
+  .bottom__button {
+    width: 100%;
+  }
 }
 @media (max-width: 420px) {
   .bottom__button {
