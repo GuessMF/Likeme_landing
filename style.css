@@ -40,22 +40,23 @@ body hr {
   top: -100px;
   left: 840px;
 } */
+.yellow-bg-img {
+  position: absolute;
+  z-index: 1;
+  top: 127px;
+  left: -52px;
+  width: 350px;
+  height: 350px;
+}
 .red-top-bg-img {
   position: absolute;
   z-index: 1;
-  width: 50%;
-  height: 50%;
-  top: -4%;
-  left: 37%;
+  top: 59px;
+  left: 49px;
+  width: 350px;
+  height: 350px;
 }
-.red-yellow-bg-img {
-  position: absolute;
-  z-index: 1;
-  width: 270px;
-  height: 270px;
-  top: 400px;
-  left: 31%;
-}
+
 .green-mid-left-img {
   position: absolute;
   z-index: 1;
@@ -107,18 +108,18 @@ body hr {
 .green-bot-center-img {
   position: absolute;
   z-index: 1;
-  top: -53px;
+  top: 0;
   left: 562px;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
 }
 .yellow-bot-img {
   position: absolute;
   z-index: 2;
-  top: -87px;
-  left: 795px;
-  width: 350px;
-  height: 350px;
+  top: -56px;
+  left: 873px;
+  width: 250px;
+  height: 250px;
 }
 
 .header {
@@ -256,12 +257,16 @@ main {
     grid-template-rows: [item-2-start] 83px;
   }
 }
-
+.top__photos__box {
+  position: relative;
+  z-index: 1;
+}
 .top__photo {
   width: 250px;
   border-radius: 100%;
   margin: 1vw;
   z-index: 5;
+  position: relative;
 }
 @media (max-width: 1919px) {
   .top__photo {
