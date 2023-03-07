@@ -6,7 +6,6 @@ body {
 body hr {
   width: 83%;
   border: 1px solid #000000;
-  /* color: #000000; */
 }
 
 .header {
@@ -51,13 +50,19 @@ main {
   justify-content: center;
   align-items: center;
 }
+.top__photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+}
 .top__photo {
   width: 250px;
   border-radius: 100%;
   margin: 1vw;
 }
 .top__icon img {
-  width: 86px;
+  width: 100px;
 }
 .top__text__container {
   display: flex;
@@ -65,7 +70,7 @@ main {
   justify-content: center;
   width: 70%;
   text-align: center;
-  /* padding: 30px; */
+  margin: 40px auto;
 }
 
 .top__text {
@@ -115,24 +120,27 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 80%;
 
   margin: 0 auto;
 }
 
 .bottom-container {
-  display: grid;
-  /* grid-template-rows: 500px 500px;  */
-  grid-template-rows: 600px 600px;
-  grid-template-columns: 600px 600px 600px; /* 3 столбца */
+  display: flex;
+  flex-direction: column;
+  margin: 70px auto;
+}
+.bottom-container__row {
+  display: flex;
+  flex-direction: row;
 }
 .bottom-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 500px;
-  border: black 1px solid;
+  width: 100%;
+  height: 450px;
 }
 .bottom-box img {
   width: 125px;
@@ -165,26 +173,26 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  margin: 30px auto;
+  width: 95%;
+  margin: 70px auto;
 }
 .content-box {
-  /* width: 28%; */
   width: 600px;
   height: 160px;
-  border: black 1px solid;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .content__icon {
   width: 160px;
 }
 .content__text {
+  width: 370px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* flex-grow: 7; */
+
   font-size: 30px;
   font-weight: 500;
   color: #000000;
