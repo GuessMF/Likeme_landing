@@ -241,7 +241,7 @@ body hr {
 }
 @media (max-width: 1344px) {
   .green-mid-right-img {
-    top: -25px;
+    top: -71px;
   }
 }
 @media (max-width: 420px) {
@@ -623,6 +623,14 @@ main {
   .top__subtitle span {
     font-size: 14px;
   }
+}
+.middle__button {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  z-index: 10;
 }
 .main__button {
   width: 1100px;
