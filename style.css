@@ -163,20 +163,27 @@ main {
 .footer-content {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 80%;
+  margin: 30px auto;
 }
 .content-box {
   /* width: 28%; */
   width: 600px;
-  height: 300px;
+  height: 160px;
   border: black 1px solid;
   display: flex;
   flex-direction: row;
 }
 .content__icon {
+  width: 160px;
 }
 .content__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   /* flex-grow: 7; */
   font-size: 30px;
   font-weight: 500;
