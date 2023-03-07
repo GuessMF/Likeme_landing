@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.hr {
+  /* width: 1596px; в проценты */
+}
